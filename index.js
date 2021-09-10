@@ -3,8 +3,6 @@ var AnsiEscapes = require('ansi-escapes');
 var AnsiStyles = require('ansi-styles');
 var webpack = require('webpack');
 
-require('object.assign').shim();
-
 var bold = AnsiStyles.bold;
 var inverse = AnsiStyles.inverse;
 
